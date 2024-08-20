@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
- 
+  background-attachment: fixed
   
 }
 
@@ -627,6 +627,7 @@ justify-content: center;
   
   .main_text_two {
     width: 100%;
+    margin-block-end: 1px;
   }
   .gallery_title {
     margin: 0 10px 10px 10px;
@@ -666,10 +667,6 @@ justify-content: center;
   .main_two {
     margin-block-start: 32px;
         width: 99%;
-  }
-
-  .main_text_two {
-    margin-block-end: 1px;
   }
 
   .main_three {
