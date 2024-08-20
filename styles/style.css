@@ -585,7 +585,9 @@ justify-content: center;
     }
 
     main {
-      margin-block-start: 41px
+      margin-block-start: 41px;
+      display: flex;
+      flex-direction: column;
     }
 
     .main_title_desc {
@@ -604,11 +606,6 @@ justify-content: center;
     }
     .header {
       justify-content: start;
-    }
-    main {
-      display: flex;
-      flex-direction: column;
-    
     }
     .main_desc {
       width: 94%;
