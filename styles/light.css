@@ -14,7 +14,7 @@
   --accent-color: #FFC2E6;
   --title-color: #FFC2E6;
   --subtitle-color: #000028;
-  --text-color: #F1B2CE;  
+  --text-color: #F1B2CE;
   --background-color: #000028;
   --font-size-nav: 18px;
   --bg-img: url(../images/cover-image-light.png);
@@ -26,7 +26,7 @@
   --color-main-text-desc: #353430;
   --color-title-footer: #ff0070;
   --border-header-neon: none;
-  --border-header-light: 1px solid #353430; 
+  --border-header-light: 1px solid #353430;
   --rec: none;
   --border-header-hover: 1px solid #353430;
 }
