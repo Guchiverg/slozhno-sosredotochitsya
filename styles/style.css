@@ -144,7 +144,7 @@ body {
   border-bottom: 1px solid var(--color-border);
   height: 24px;
   width: 24px;
-  bottom: 0px;
+  bottom: 20px;
   left: 20px;
 }
 
@@ -348,6 +348,7 @@ justify-content: center;
   height: 100dvh;
   position: relative;
   margin-block-end: 60px;
+  background: var(--bg-color-main);
 }
 
 .footer_text {
