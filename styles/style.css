@@ -4,12 +4,15 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background: var(--bg-img);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-color: var(--subtitle-color);
   background-attachment: fixed;
 }
 
 * {
   margin: 0 auto;
+  max-width: 1024px;
 }
 
 body {
