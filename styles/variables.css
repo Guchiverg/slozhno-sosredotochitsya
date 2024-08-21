@@ -4,13 +4,13 @@
 */
 
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
   :root {
     --accent-font-family: "IBM Plex mono", "sans-serif";
     --accent-color: #FF0070;
     --title-color: #DB00FF;
     --subtitle-color: #000028;
-    --text-color: #F1B2CE;  
+    --text-color: #F1B2CE;
     --background-color: #000028;
     --font-size-nav: 18px;
     --bg-img: url(/images/cover-image-dark.png);
@@ -29,15 +29,15 @@
     --color-title-footer: #FF0070;
   }
 }
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
 
-  .page.theme_auto{
+  .page.theme_auto {
     
       --accent-font-family: "IBM Plex mono", "sans-serif";
       --accent-color: #FF0070;
       --title-color: #DB00FF;
       --subtitle-color: #000028;
-      --text-color: #F1B2CE;  
+      --text-color: #F1B2CE;
       --background-color: #000028;
       --font-size-nav: 18px;
       --bg-img: url(/images/cover-image-dark.png);
@@ -63,7 +63,7 @@
   
 }
 
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme: light) {
   .page.theme_auto{
     --accent-font-family: "IBM Plex mono", "sans-serif";
     --accent-color: #FFC2E6;
