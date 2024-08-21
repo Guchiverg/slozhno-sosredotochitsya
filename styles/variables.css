@@ -63,7 +63,7 @@
   
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   .page.theme_auto{
     --accent-font-family: "IBM Plex mono", "sans-serif";
     --accent-color: #FFC2E6;
@@ -86,8 +86,6 @@
     --rec: none;
     --border-header-hover: 1px solid #353430;
 
-    .header__theme-menu-button_type_light {
-      border: none;
-    }
+  
   }
-}
+} */
