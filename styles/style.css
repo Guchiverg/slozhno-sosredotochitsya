@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
- 
+  ba 
   
 }
 
@@ -376,6 +376,7 @@ justify-content: center;
 
 .main_three {
   margin-block-start: 70px;
+  display: flex;
 }
 
 .main_text_end {
@@ -763,4 +764,3 @@ justify-content: center;
 .footer {
   
 }
-    } 
