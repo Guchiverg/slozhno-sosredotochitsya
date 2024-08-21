@@ -31,6 +31,12 @@ body {
 .header__theme-menu-button {
   font-size: 18px;
   cursor: pointer;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  color: var(--accent-color-light);
+  text-transform: lowercase;
+  font-family: IBM Plex mono;
+  padding: 1px 10px;
 }
 
 .header__theme-menu-button:hover {
@@ -58,12 +64,7 @@ body {
 }
 
 .header__theme-menu-button {
-  background: rgba(0, 0, 0, 0);
-  border: none;
-  color: var(--accent-color-light);
-  text-transform: lowercase;
-  font-family: IBM Plex mono;
-  padding: 1px 10px;
+
 }
 
 .header__theme-menu-button_type_dark {
@@ -90,7 +91,7 @@ body {
 }
 
 .rec_text::after {
-  content: ""; 
+  content: "";
   width: 9px;
   height: 9px;
   background-color: var(--accent-color);
@@ -173,7 +174,6 @@ main {
 }
 
 .main_title {
-  color: var(--accent-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
@@ -272,7 +272,7 @@ justify-content: center;
 }
 
 .gallery {
-  margin-block-start: 70px; 
+  margin-block-start: 70px;
 }
 
 .gallery_title {
@@ -302,7 +302,7 @@ justify-content: center;
   height: 1048px;
   margin: 0 auto;
 }
-.photo_1{
+.photo_1 {
   grid-area: photo_1;
   background-image: url(../images/sunset.png);
   background-position: center;
@@ -310,7 +310,7 @@ justify-content: center;
   margin: 0;
   height: 260px;
 }
-.photo_2{
+.photo_2 {
   grid-area: photo_2;
   background-image: url(../images/ice-cream.png);
   background-position: center;
@@ -318,7 +318,7 @@ justify-content: center;
   margin: 0;
   height: 595px;
 }
-.photo_3{
+.photo_3 {
   grid-area: photo_3;
   background-image: url(../images/tape.png);
   background-position: center;
@@ -326,7 +326,7 @@ justify-content: center;
   margin: 0;
   height: 768px;
 }
-.photo_4{
+.photo_4 {
   grid-area: photo_4;
   background-image: url(../images/books.png);
   background-position: center;
@@ -334,7 +334,7 @@ justify-content: center;
   margin: 0;
   height: 315px;
 }
-.photo_5{
+.photo_5 {
   grid-area: photo_5;
   background-image: url(../images/street.png);
   background-position: center;
@@ -471,7 +471,7 @@ justify-content: center;
       height: 780px;
       margin: 0 auto;
     }
-    .photo_1{
+    .photo_1 {
       grid-area: photo_1;
       background-image: url(../images/sunset.png);
       background-position: center;
@@ -479,7 +479,7 @@ justify-content: center;
       margin: 0;
       height: 192px;
     }
-    .photo_2{
+    .photo_2 {
       grid-area: photo_2;
       background-image: url(../images/ice-cream.png);
       background-position: center;
@@ -487,7 +487,7 @@ justify-content: center;
       margin: 0;
       height: 441px;
     }
-    .photo_3{
+    .photo_3 {
       grid-area: photo_3;
       background-image: url(../images/tape.png);
       background-position: center;
@@ -495,7 +495,7 @@ justify-content: center;
       margin: 0;
       height: 568px;
     }
-    .photo_4{
+    .photo_4 {
       grid-area: photo_4;
       background-image: url(../images/books.png);
       background-position: center;
@@ -503,7 +503,7 @@ justify-content: center;
       margin: 0;
       height: 230px;
     }
-    .photo_5{
+    .photo_5 {
       grid-area: photo_5;
       background-image: url(../images/street.png);
       background-position: center;
@@ -672,7 +672,7 @@ justify-content: center;
     bottom: 89%;
   }
 
-  .main_two{
+  .main_two {
     margin-block-start: 32px;
         width: 99%;
   }
