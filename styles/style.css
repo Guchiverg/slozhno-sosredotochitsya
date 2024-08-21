@@ -241,7 +241,7 @@ main {
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
-  color: #000028;
+  color: var(--color-title-new);
   width: 100%;
   margin-block-end: 20px;
 }
@@ -277,7 +277,7 @@ justify-content: center;
   margin-block-end: 20px;
   font-size: 18px;
   line-height: 130%;
-  color: var(--background-color);
+  color: var(--color-title-new);
 }
 
 .gallery_photo {
