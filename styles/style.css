@@ -555,7 +555,7 @@ justify-content: center;
     * {
       margin: 0;
     }
-    
+  
     .header_title {
       font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
       margin: 0 auto;
@@ -707,7 +707,7 @@ justify-content: center;
   height: 1366px;
   margin: 0 auto;
 }  */
-.photo_1{
+.photo_1 {
   grid-area: photo_1;
   background-image: url(../images/sunset.png);
   background-position: center;
@@ -715,7 +715,7 @@ justify-content: center;
   margin: 0;
   height: 142px;
 }
-.photo_2{
+.photo_2 {
   grid-area: photo_2;
   background-image: url(../images/ice-cream.png);
   background-position: center;
@@ -723,7 +723,7 @@ justify-content: center;
   margin: 0;
   height: 355px;
 }
-.photo_3{
+.photo_3 {
   grid-area: photo_3;
   background-image: url(../images/tape.png);
   background-position: center;
@@ -731,7 +731,7 @@ justify-content: center;
   margin: 0;
   height: 237px;
 }
-.photo_4{
+.photo_4 {
   grid-area: photo_4;
   background-image: url(../images/books.png);
   background-position: center;
@@ -739,7 +739,7 @@ justify-content: center;
   margin: 0;
   height: 355px;
 }
-.photo_5{
+.photo_5 {
   grid-area: photo_5;
   background-image: url(../images/street.png);
   background-position: center;
@@ -759,6 +759,5 @@ justify-content: center;
   position: relative;
   margin-block-end: 39px;
 }
-.footer {
-  
-}
+
+  }
