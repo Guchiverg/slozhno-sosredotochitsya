@@ -356,7 +356,7 @@ justify-content: center;
   font-weight: 700;
   font-size: 157px;
   line-height: 83%;
-  color: var(--accent-color);
+  color: var(--title-color);
   text-shadow: 2px 2px  0 var(--accent-color);
   margin-block-start: 116px;
 }
@@ -365,6 +365,10 @@ justify-content: center;
   left: 95.5%;
   bottom: 86.2%;
   transform: rotate(180deg);
+}
+
+.decor_bottom_two {
+  bottom: 0;
 }
   
 .main_text_three {
