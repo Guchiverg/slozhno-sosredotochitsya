@@ -54,7 +54,7 @@ body {
 
 .header__theme-menu-list {
   display: flex;
-  margin-inline-end: 55px;
+  margin-inline-end: 16px;
 }
 
 .header__theme-menu-item {
@@ -389,12 +389,12 @@ justify-content: center;
     }
     .header__theme-menu-list {
       flex-direction: column;
-      margin-top: 171px;
+      margin-top: 181px;
       margin-inline-end: 12px;
     }
     .header__theme-menu-item {
       margin: 11px;
-      height: 19px;
+      height: 14px;
     }
     .header_title {
       margin-block-start: 83px;
