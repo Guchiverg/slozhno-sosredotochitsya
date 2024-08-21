@@ -27,6 +27,7 @@
   --border-header-hover: 1px solid  #FF0070;
   --color-title-footer: #FF0070;
   --color-title-new: #000028;
+  --text-shadow-new: 4px 4px 0 #ff8dcb;
 }
 
 .page.theme_dark {
@@ -56,6 +57,7 @@
   --border-header-hover: 1px solid  #FF0070;
   --color-title-footer: #FF0070;
   --color-title-new: #000028;
+  --text-shadow-new: 4px 4px 0 #ff8dcb;
   .main_title_desc {
     background-color: var(--bg-color-title);
     font-weight: 700;
