@@ -3,8 +3,6 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
-
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -34,10 +32,72 @@
   
 }
 
+
+  
+.footer_text {
+  text-shadow: 2px 2px 0 var(--color-title-footer);
+}
+
+.shadow_text {
+  color: var(--color-main-text-desc);
+  text-shadow: 3px 3px 2px var(--color-title-footer);
+}
+
+.header__theme-menu-button_type_light {
+  border: var(--border-header-light);
+}
+
+.shadow_text:hover {
+  border-bottom: 1px solid var(--color-main-text-desc);
+}
+
+.shadow_text:focus {
+  border: 1px solid var(--color-main-text-desc);
+}
+
+.header__theme-menu-button:hover {
+  border: var(--border-header-hover);
+}
+
+.header__theme-menu-button:focus {
+  border-bottom: var(--border-header-hover);
+}
+
+
+@media (width: 1024px) {
+  .main_shadow {
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+   
+  }
+
+  .main_text_shadow {
+    text-shadow: 1px 1px 10px var(--color-shadow-text);
+  }
+}
+
+.rec_block {
+  display: var(--rec);
+}
+
+
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
  
-  background-color: red;
+
+}
+
+  
+
+
+
+
+
+/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+
+.page {
+  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+ 
+ 
 }

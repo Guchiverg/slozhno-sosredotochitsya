@@ -4,79 +4,83 @@
   переключая тему
 */
 
-.page.theme_light {
+
+  .page.theme_light {
+    
+    /* сохраните этот селектор в приведённом виде.
+      Так стили написанные ниже будут иметь больший вес,
+      чем стили в медиазапросе предпочтений пользователя
+    */
+    --accent-font-family: "IBM Plex mono", "sans-serif";
+    --accent-color: #FFC2E6;
+    --title-color: #FFC2E6;
+    --subtitle-color: #ffeef6;
+    --text-color: #F1B2CE;
+    --background-color: #000028;
+    --font-size-nav: 18px;
+    --bg-img: url(../images/cover-image-light.png);
+    --accent-color-light: #353430;
+    --color-border: #353430;
+    --bg-color-title: #FF8DCB;
+    --bg-color-main: #ffeef6;
+    --color-main-title: #353430;
+    --color-main-text-desc: #353430;
+    --color-shadow-text: #f1b2ce;
+    --color-title-footer: #ff0070;
+    --border-header-neon: none;
+    --border-header-light: 1px solid #353430;
+    --rec: none;
+    --border-header-hover: 1px solid #353430;
+  }
+
+
+
+    .footer_text {
+      text-shadow: 2px 2px 0 var(--color-title-footer);
+    }
+    
+    .shadow_text {
+      color: var(--color-main-text-desc);
+      text-shadow: 3px 3px 2px var(--color-title-footer);
+    }
+    
+    .header__theme-menu-button_type_light {
+      border: var(--border-header-light);
+    }
+    
+    .shadow_text:hover {
+      border-bottom: 1px solid var(--color-main-text-desc);
+    }
+    
+    .shadow_text:focus {
+      border: 1px solid var(--color-main-text-desc);
+    }
+    
+    .header__theme-menu-button:hover {
+      border: var(--border-header-hover);
+    }
+    
+    .header__theme-menu-button:focus {
+      border-bottom: var(--border-header-hover);
+    }
+    
+    
+    @media (width: 1024px) {
+      .main_shadow {
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+       
+      }
+    
+      .main_text_shadow {
+        text-shadow: 1px 1px 10px var(--color-shadow-text);
+      }
+    }
+    
+    .rec_block {
+      display: var(--rec);
+    }
+    
   
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-  --accent-font-family: "IBM Plex mono", "sans-serif";
-  --accent-color: #FFC2E6;
-  --title-color: #FFC2E6;
-  --subtitle-color: #ffeef6;
-  --text-color: #F1B2CE;
-  --background-color: #000028;
-  --font-size-nav: 18px;
-  --bg-img: url(../images/cover-image-light.png);
-  --accent-color-light: #353430;
-  --color-border: #353430;
-  --bg-color-title: #FF8DCB;
-  --bg-color-main: #ffeef6;
-  --color-main-title: #353430;
-  --color-main-text-desc: #353430;
-  --color-shadow-text: #f1b2ce;
-  --color-title-footer: #ff0070;
-  --border-header-neon: none;
-  --border-header-light: 1px solid #353430;
-  --rec: none;
-  --border-header-hover: 1px solid #353430;
-}
-
-.footer_text {
-  text-shadow: 2px 2px 0 var(--color-title-footer);
-}
-
-.shadow_text {
-  color: var(--color-main-text-desc);
-  text-shadow: 3px 3px 2px var(--color-title-footer);
-}
-
-.header__theme-menu-button_type_light {
-  border: var(--border-header-light);
-}
-
-.shadow_text:hover {
-  border-bottom: 1px solid var(--color-main-text-desc);
-}
-
-.shadow_text:focus {
-  border: 1px solid var(--color-main-text-desc);
-}
-
-.header__theme-menu-button:hover {
-  border: var(--border-header-hover);
-}
-
-.header__theme-menu-button:focus {
-  border-bottom: var(--border-header-hover);
-}
-
-
-@media (width: 1024px) {
-  .main_shadow {
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-   
-  }
-
-  .main_text_shadow {
-    text-shadow: 1px 1px 10px var(--color-shadow-text);
-  }
-}
-
-.rec_block {
-  display: var(--rec);
-}
-
 
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
