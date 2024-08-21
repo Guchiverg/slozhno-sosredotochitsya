@@ -18,7 +18,7 @@
   --bg-color-title: #FF0070;
   --bg-color-main: #000028;
   --color-main-title: #ff0070;
-  --color-main-text-desc: #f1b2ce;
+  --color-main-text-desc: #353430;
   --color-shadow-text: #f1b2ce00;
   --border-header: 1px solid #353430;
   --border-header-neon: 1px solid #FF0070;
@@ -26,6 +26,7 @@
   --rec: flex;
   --border-header-hover: 1px solid  #FF0070;
   --color-title-footer: #FF0070;
+  --color-title-new: #000028;
 }
 
 .page.theme_dark {
@@ -54,7 +55,15 @@
   --rec: flex;
   --border-header-hover: 1px solid  #FF0070;
   --color-title-footer: #FF0070;
-  
+  --color-title-new: #000028;
+  .main_title_desc {
+    background-color: var(--bg-color-title);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--color-title-new);
+    width: 99%;
+  }
 }
 
 

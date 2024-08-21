@@ -19,6 +19,7 @@
   --bg-color-main: #ffeef6;
   --color-main-title: #353430;
   --color-main-text-desc: #353430;
+  --color-title-new: #353430;
   --color-shadow-text: #f1b2ce;
   --color-title-footer: #ff0070;
   --border-header-neon: none;
@@ -47,6 +48,7 @@
     --bg-color-main: #ffeef6;
     --color-main-title: #353430;
     --color-main-text-desc: #353430;
+    --color-title-new: #353430;
     --color-shadow-text: #f1b2ce;
     --color-title-footer: #ff0070;
     --border-header-neon: none;
@@ -70,6 +72,7 @@
       --bg-color-main: #ffeef6;
       --color-main-title: #353430;
       --color-main-text-desc: #353430;
+      --color-title-new: #353430;
       --color-shadow-text: #f1b2ce;
       --color-title-footer: #ff0070;
       --border-header-neon: none;

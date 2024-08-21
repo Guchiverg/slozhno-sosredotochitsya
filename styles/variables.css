@@ -27,6 +27,7 @@
     --rec: flex;
     --border-header-hover: 1px solid  #FF0070;
     --color-title-footer: #FF0070;
+    --color-title-new: #000028;
   }
 }
 @media (prefers-color-scheme: dark) {
