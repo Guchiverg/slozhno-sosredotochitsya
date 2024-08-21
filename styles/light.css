@@ -77,9 +77,7 @@
       --rec: none;
       --border-header-hover: 1px solid #353430;
 
-      .header__theme-menu-button_type_light {
-        border: none;
-      }
+
     }
   }
 
