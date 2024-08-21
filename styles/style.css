@@ -222,7 +222,10 @@ main {
 }
 
 .main_two {
+  display: flex;
   flex-direction: column;
+  margin-block-start: 61px;
+  font-family: IBM Plex Mono;
 }
 
 .main_desc_two {
@@ -367,6 +370,7 @@ justify-content: center;
 .main_three {
   margin-block-start: 70px;
   display: flex;
+  font-family: IBM Plex Mono;
 }
 
 .main_text_end {
@@ -547,7 +551,7 @@ justify-content: center;
     * {
       margin: 0;
     }
-  
+
     .header_title {
       font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
       margin: 0 auto;
@@ -626,6 +630,7 @@ justify-content: center;
   
   .main_text_two {
     width: 100%;
+    margin-block-end: 1px;
   }
   .gallery_title {
     margin: 0 10px 10px 10px;
@@ -669,7 +674,9 @@ justify-content: center;
   }
 
   .main_three {
-    margin-block-start: 40px;
+    margin-block-start: 39px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main_title_desc_info {

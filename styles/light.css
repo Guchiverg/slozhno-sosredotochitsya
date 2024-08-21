@@ -24,6 +24,7 @@
   --bg-color-main: #ffeef6;
   --color-main-title: #353430;
   --color-main-text-desc: #353430;
+  --color-shadow-text: #f1b2ce;
   --color-title-footer: #ff0070;
   --border-header-neon: none;
   --border-header-light: 1px solid #353430;
@@ -68,7 +69,7 @@
   }
 
   .main_text_shadow {
-    text-shadow: 1px 1px 10px var(--color-main-text-desc);
+    text-shadow: 1px 1px 10px var(--color-shadow-text);
   }
 }
 
