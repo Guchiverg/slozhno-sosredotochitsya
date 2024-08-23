@@ -21,11 +21,13 @@
   --color-main-text-desc: #353430;
   --color-title-new: #353430;
   --color-shadow-text: #f1b2ce;
-  --color-title-footer: #ff0070;
+  --color-title-footer: 2px 2px 0 #ff8dcb;
   --border-header-neon: none;
   --border-header-light: 1px solid #353430;
   --rec: none;
   --border-header-hover: 1px solid #353430;
+  --text-shadow-footer-light: 2px 2px 0 #ff8dcb;
+  --text-shadow-title-new: 4px 4px 0 #ff0070;
 }
 
   .page.theme_light {
@@ -50,11 +52,32 @@
     --color-main-text-desc: #353430;
     --color-title-new: #353430;
     --color-shadow-text: #f1b2ce;
-    --color-title-footer: #ff0070;
+    --color-title-footer: 2px 2px 0 #ff8dcb;
     --border-header-neon: none;
     --border-header-light: 1px solid #353430;
     --rec: none;
     --border-header-hover: 1px solid #353430;
+    --text-shadow-footer-light: 2px 2px 0 #ff8dcb;
+    --text-shadow-title-new: 4px 4px 0 #ff0070;
+
+    @media (max-width: 768px) {
+      --text-shadow-title-new: 4px 4px 0 #ff8dcb;
+    }
+
+
+    /* @media (width: 768px) {
+      .header_title {
+        text-shadow: var(--text-shadow-title-new);
+      }
+    }
+
+
+
+    @media (width: 375px) {
+      .header_title {
+        text-shadow: var(--text-shadow-title-new);
+      }
+    } */
   }
   @media (prefers-color-scheme: light) {
     :root {
@@ -74,13 +97,13 @@
       --color-main-text-desc: #353430;
       --color-title-new: #353430;
       --color-shadow-text: #f1b2ce;
-      --color-title-footer: #ff0070;
+      --color-title-footer: 2px 2px 0 #ff8dcb;
       --border-header-neon: none;
       --border-header-light: 1px solid #353430;
       --rec: none;
       --border-header-hover: 1px solid #353430;
-
-
+      --text-shadow-footer-light: 2px 2px 0 #ff8dcb;
+      --text-shadow-title-new: 4px 4px 0 #ff0070;
     }
   }
 
@@ -100,11 +123,14 @@
   --color-main-title: #353430;
   --color-main-text-desc: #353430;
   --color-shadow-text: #f1b2ce;
-  --color-title-footer: #ff0070;
+  --color-title-footer: 2px 2px 0 #ff8dcb;
   --border-header-neon: none;
   --border-header-light: 1px solid #353430;
   --rec: none;
   --border-header-hover: 1px solid #353430;
+  --text-shadow-footer-light: 2px 2px 0 #ff8dcb;
+  --text-shadow-title-new: 4px 4px 0 #ff0070;
+
 }
     .footer_text {
       text-shadow: 2px 2px 0 var(--color-title-footer);
@@ -151,11 +177,33 @@
       display: var(--rec);
     }
     
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .header_title {
       text-shadow: 4px 4px 0 #ff8dcb;
     }
+    .footer_text {
+      text-shadow: var(--color-title-footer);
+    }
+  } */
+
+  /* @media (width: 768px) {
+    .page.theme_light {
+      .header_title {
+        text-shadow: var(--text-shadow-footer-light);
+      }
+    }
   }
+
+  @media (width: 375px) {
+    .page.theme_light {
+      .header_title {
+        text-shadow: var(--text-shadow-footer-light);
+      }
+    }
+  } */
+
+
+ 
 
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 

@@ -28,6 +28,8 @@
   --color-title-footer: #FF0070;
   --color-title-new: #000028;
   --text-shadow-new: 4px 4px 0 #ff8dcb;
+  --text-shadow-title-new: 4px 4px 0 #ff0070; 
+  --text-shadow-footer-new: 2px 2px 0 #ff0070;
 }
 
 .page.theme_dark {
@@ -58,6 +60,8 @@
   --color-title-footer: #FF0070;
   --color-title-new: #000028;
   --text-shadow-new: 4px 4px 0 #ff8dcb;
+  --text-shadow-title-new: 4px 4px 0 #ff0070; 
+  --text-shadow-footer-new: 2px 2px 0 #ff0070;
   .main_title_desc {
     background-color: var(--bg-color-title);
     font-weight: 700;
@@ -117,6 +121,40 @@
   display: var(--rec);
 }
 
+
+@media (prefers-color-scheme: light) {
+  .page.theme_auto {
+    --text-shadow-title-new: 4px 4px 0 #ff8dcb;
+    .header__theme-menu-button_type_light {
+      border: none;
+    }
+
+    @media (width: 768px) {
+      .header_title {
+        text-shadow: var(--text-shadow-title-new);
+      }
+    }
+
+    @media (width: 375px) {
+      .header_title {
+        text-shadow: var(--text-shadow-title-new);
+      }
+    }
+  
+}
+} 
+
+/* @media (width: 768px) {
+  .header_title {
+    text-shadow: var(--text-shadow-title-new);
+  }
+}
+
+@media (width: 375px) {
+  .header_title {
+    text-shadow: var(--text-shadow-title-new);
+  }
+} */
 
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
