@@ -586,6 +586,10 @@ justify-content: center;
       left: 10px;
     }
 
+    .decor_bottom_two {
+      bottom: 10px;
+    }
+
     main {
       margin-block-start: 41px;
       display: flex;
@@ -753,5 +757,7 @@ justify-content: center;
   position: relative;
   margin-block-end: 39px;
 }
-
+.decor {
+  bottom: -29px;
+}
   }
