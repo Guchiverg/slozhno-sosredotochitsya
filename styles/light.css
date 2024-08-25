@@ -8,7 +8,9 @@
   background-attachment: fixed;
 }
 
-
+.page{
+  background-attachment: fixed;
+}
 .theme_light {
   --background-main-color: #FFF1F7;
   --background-second-color: #FF8DCB;

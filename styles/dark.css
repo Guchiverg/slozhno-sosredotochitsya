@@ -7,6 +7,9 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.page{
+  background-attachment: fixed;
+}
 .theme_dark {
   --background-main-color: #000028;
   --background-second-color: #FF0070;
