@@ -1,7 +1,10 @@
 
 
 .page.theme_dark {
-
+  background: url('/images/cover-image-dark.png'), var(--background-main-color);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .theme_dark {
