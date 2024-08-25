@@ -1,10 +1,4 @@
-.page {
-  background: url('/images/cover-image-dark.png'), var(--background-main-color);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 
 .header_rec_point {
   font-weight: 400;
@@ -117,6 +111,7 @@
   align-items: center;
   font-family: var(--main-font-family);
   font-weight: 700;
+  background-attachment: fixed;
 }
 
 .header {
