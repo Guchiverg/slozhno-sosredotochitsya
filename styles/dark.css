@@ -1,5 +1,4 @@
 
-
 .page.theme_dark {
   background: url('/images/cover-image-dark.png'), var(--background-main-color);
   background-attachment: fixed;
@@ -32,9 +31,6 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-  }
-
-  .theme_auto {
     --background-main-color: #000028;
     --background-second-color: #FF0070;
     --title-color-effect: #DB00FF;
@@ -48,6 +44,7 @@
     --hover-color: #FF0070;
     --camera-point-color: #FF0070;
     --footer-title-sub-low-effect: #FF0070;
+    
   }
 
   .header_rec_point {

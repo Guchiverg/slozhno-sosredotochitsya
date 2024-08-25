@@ -6,12 +6,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.page {
-  background-attachment: fixed;
-}
-.theme_light {
   --background-main-color: #FFF1F7;
   --background-second-color: #FF8DCB;
   --title-color-effect: #FFC2E6;
@@ -26,6 +20,7 @@
   --decorate-color: #353430;
   --text-subtitle-color: #353430;
 }
+
 
 @media (prefers-color-scheme: light) {
   .page {
