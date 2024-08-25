@@ -5,8 +5,8 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
-
 .theme_dark {
   --background-main-color: #000028;
   --background-second-color: #FF0070;

@@ -1,11 +1,11 @@
 
 
 .page.theme_light {
-  
   background: url('/images/cover-image-light.png'), var(--background-main-color);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 
