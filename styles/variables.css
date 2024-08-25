@@ -1,105 +1,15 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --accent-font-family: "IBM Plex mono", "sans-serif";
-    --accent-color: #FF0070;
-    --title-color: #DB00FF;
-    --subtitle-color: #000028;
-    --text-color: #F1B2CE;
-    --background-color: #000028;
-    --font-size-nav: 18px;
-    --bg-img: url(/images/cover-image-dark.png);
-    --accent-color-light: #FF0070;
-    --color-border: #FF0070;
-    --bg-color-title: #FF0070;
-    --bg-color-main: #000028;
-    --color-main-title: #ff0070;
-    --color-main-text-desc: #f1b2ce;
-    --color-shadow-text: #f1b2ce00;
-    --border-header: 1px solid #353430;
-    --border-header-neon: 1px solid #FF0070;
-    --border-header-light: none;
-    --rec: flex;
-    --border-header-hover: 1px solid  #FF0070;
-    --color-title-footer: #FF0070;
-    --color-title-new: #000028;
-    --text-shadow-new: 4px 4px 0 #ff8dcb;
-    --text-shadow-title-new: 4px 4px 0 #ff0070; 
-    --text-shadow-footer-new: 2px 2px 0 #ff0070;
-  }
+:root {
+  --background-main-color: #FFF1F7;
+  --background-second-color: #FF8DCB;
+  --title-color-effect: #FFC2E6;
+  --title-color-sub-effect: #FF0070;
+  --text-menu-color: #353430;
+  --text-title-color: #353430;
+  --text-description-color: #353430;
+  --text-main-color: #353430;
+  --hover-color: #353430;
+  --main-font-family: "IBM Plex Mono", 'monospace';
+  --footer-title-sub-low-effect: #FF8DCB;
+  --decorate-color: #353430;
+  --text-subtitle-color: #353430;
 }
-@media (prefers-color-scheme: dark) {
-
-
-  .page.theme_auto {
-    
-      --accent-font-family: "IBM Plex mono", "sans-serif";
-      --accent-color: #FF0070;
-      --title-color: #DB00FF;
-      --subtitle-color: #000028;
-      --text-color: #F1B2CE;
-      --background-color: #000028;
-      --font-size-nav: 18px;
-      --bg-img: url(/images/cover-image-dark.png);
-      --accent-color-light: #FF0070;
-      --color-border: #FF0070;
-      --bg-color-title: #FF0070;
-      --bg-color-main: #000028;
-      --color-main-title: #ff0070;
-      --color-main-text-desc: #f1b2ce;
-      --color-shadow-text: #f1b2ce00;
-      --border-header: 1px solid #353430;
-      --border-header-neon: 1px solid #FF0070;
-      --border-header-light: none;
-      --rec: flex;
-      --border-header-hover: 1px solid  #FF0070;
-      --color-title-footer: #FF0070;
-      --text-shadow-new: 4px 4px 0 #ff8dcb;
-      --text-shadow-title-new: 4px 4px 0 #ff0070; 
-      --text-shadow-footer-new: 2px 2px 0 #ff0070;
-      .header__theme-menu-button_type_dark {
-        border: none;
-      }
-
-  }
-  
-}
-
-
-
-
-@media (prefers-color-scheme: light) {
-  
-  .page.theme_auto {
-    
-    /* --text-shadow-title-new: 4px 4px 0 #ff0070;
-    .header_title {
-      text-shadow: var(--text-shadow-title-new);
-    } */
-
-    @media (min-width: 1024px){
-      .header_title {
-        text-shadow: 4px 4px 0 #ff0070;
-      }
-    }
-
-    @media (max-width: 768px) {
-      --text-shadow-title-new: 4px 4px 0 #ff8dcb;
-    }
-    /* @media (width: 768px) {
-      .header_title {
-        text-shadow: var(--text-shadow-title-new);
-      }
-    } */
-    .header__theme-menu-button_type_light {
-      border: none;
-    }
-  
-}
-}
-
