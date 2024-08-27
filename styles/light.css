@@ -1,80 +1,58 @@
-
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
 
 .page.theme_light {
-  background: url('/images/cover-image-light.png'), var(--background-main-color);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  --background-main-color: #FFF1F7;
-  --background-second-color: #FF8DCB;
-  --title-color-effect: #FFC2E6;
-  --title-color-sub-effect: #FF0070;
-  --text-menu-color: #353430;
-  --text-title-color: #353430;
-  --text-description-color: #353430;
-  --text-main-color: #353430;
-  --hover-color: #353430;
-  --main-font-family: "IBM Plex Mono", 'monospace';
-  --footer-title-sub-low-effect: #FF8DCB;
-  --decorate-color: #353430;
-  --text-subtitle-color: #353430;
-}
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  --accent-color-header: #353430; /* основной цвет темной темы в header */
+  --color-tittle-dark: #FFC2E6; /*цвет заголовка темной темы*/
+  --color-title-shadow-dark: 4px 4px 0 #ff0070; /*тень заголовка темной темы*/
+  --color-text-desc-header: #353430; /*цвет текста для header после заголовка*/
+  --color-bg-text-desc-header: #FFEEF6; /*цвет фона текста в header после заголовка*/
+  --color-main-title: #353430; /*цвет текста заголовка в теге main*/
+  --color-main-subtitle: #353430; /*цвет текста sub заголовка в теге main*/
+  --color-bg-main: #FF8DCB; /*цвет фона текста sub заголовка в теге main*/
+  --color-main-text: #353430; /*цвет текста в теге p в классе main_text*/
+  --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
+  --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
+  --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
 
-
-@media (prefers-color-scheme: light) {
-  .page {
-    background: url('/images/cover-image-light.png'), var(--background-main-color);
-    background-attachment: fixed;
-    background-position: center;
+  .header {
+    background-image: url(/images/cover-image-light.png);
+    background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .theme_auto {
-    --background-main-color: #FFF1F7;
-    --background-second-color: #FF8DCB;
-    --title-color-effect: #FFC2E6;
-    --title-color-sub-effect: #FF0070;
-    --text-menu-color: #353430;
-    --text-title-color: #353430;
-    --text-description-color: #353430;
-    --text-main-color: #353430;
-    --hover-color: #353430;
-    --main-font-family: "IBM Plex Mono", 'monospace';
-    --footer-title-sub-low-effect: #FF8DCB;
-    --decorate-color: #353430;
-    --text-subtitle-color: #353430;
-  }
-
-  .header_rec_point {
+  .header_rec {
     display: none;
   }
 
-  .theme_dark>.header>.header_rec_point {
-    display: block;
+  .header__theme-menu-button_type_light {
+    border: 1px solid #353430;
+  }
+
+  .header__theme-menu-button:hover {
+    border: 1px solid rgba(50, 49, 45, 0.4);
+  }
+
+  .header__theme-menu-button:focus {
+    border-bottom: 1px solid #353430;
+  }
+
+  .main_text_link {
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #FF8DCB;
   }
 }
 
-.header_rec_point {
-  display: none;
-}
-
-/* @media (1024px >=width) {
-  .header_title {
-    text-shadow: 4px 4px 0px var(--title-color-sub-effect);
-  }
-
-  .footer_title {
-    text-shadow: 2px 2px 0px var(--title-color-sub-effect);
+@media (max-width: 768px) {
+  .page.theme_light {
+    --color-title-shadow-dark: 4px 4px 0 #ff8dcb;
+    --text-shadow-footer: 2px 2px 0 #ff8dcb;
   }
 }
-
-@media (width < 1024px) {
-  .header_title {
-    text-shadow: 4px 4px 0px var(--footer-title-sub-low-effect);
-  }
-
-  .footer_title {
-    text-shadow: 2px 2px 0px var(--footer-title-sub-low-effect);
-  }
-} */
