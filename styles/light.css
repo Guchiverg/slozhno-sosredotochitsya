@@ -30,7 +30,7 @@
   --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
 
   .header {
-    /* background-image: url(/images/cover-image-light.png); */
+    background-image: url(/images/cover-image-light.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
