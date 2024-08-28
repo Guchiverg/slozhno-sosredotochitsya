@@ -12,7 +12,7 @@
   --color-bg-text-desc-header: #FF0070; /*цвет фона текста в header после заголовка*/
   --color-main-title: #FF0070; /*цвет текста заголовка в теге main*/
   --color-main-subtitle: #000028; /*цвет текста sub заголовка в теге main*/
-  --color-bg-main: #FF0070; /*цвет фона текста sub заголовка в теге main*/
+  --color-bg-main: #FF0070; /*цвет фона текста sub заголовка в теге main/*/
   --color-main-text: #F1B2CE; /*цвет текста в теге p в классе main_text*/
   --accent-color-bg: #000028; /*цвет фона бакграунд для всего сайта*/
   --color-footer-title: #db00ff; /*цвет заголовка футера*/
