@@ -19,6 +19,10 @@
   --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
   --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
   --background-image: url(/images/cover-image-light.png); /*фон сайта*/
+  --rec-visible: hidden; /*для rec видимый*/
+  .header_rec {
+    visibility: var(--rec-visible);
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,11 +40,12 @@
     --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
     --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
     --background-image: url(/images/cover-image-light.png); /*фон сайта*/
+    --rec-visible: hidden; /*для rec видимый*/
+  }
+  .header_rec {
+    visibility: var(--rec-visible);
   }
 
-  .header_rec {
-    display: none;
-  }
 }
 
 

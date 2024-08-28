@@ -65,6 +65,7 @@ body {
   position: absolute;
   top: 20px;
   right: 48px;
+  visibility: var(--rec-visible);
 }
 
 .header_rec::after {
