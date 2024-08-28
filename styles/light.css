@@ -9,8 +9,9 @@
   --accent-color-header: #353430; /* основной цвет темной темы в header */
   --color-tittle-dark: #FFC2E6; /*цвет заголовка темной темы*/
   --color-title-shadow-dark: 4px 4px 0 #ff0070; /*тень заголовка темной темы*/
+  --color-title-shadow-light: 4px 4px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
   --color-text-desc-header: #353430; /*цвет текста для header после заголовка*/
-  --color-bg-text-desc-header: #FFEEF6; /*цвет фона текста в header после заголовка*/
+  --color-bg-text-desc-header: #FF8DCB; /*цвет фона текста в header после заголовка*/
   --color-main-title: #353430; /*цвет текста заголовка в теге main*/
   --color-main-subtitle: #353430; /*цвет текста sub заголовка в теге main*/
   --color-bg-main: #FF8DCB; /*цвет фона текста sub заголовка в теге main*/
@@ -20,8 +21,24 @@
   --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
   --background-image: url(/images/cover-image-light.png); /*фон сайта*/
   --rec-visible: hidden; /*для rec видимый*/
+ 
   .header_rec {
     visibility: var(--rec-visible);
+  }
+
+  @media (width > 768px) {
+    .text_description {
+      background-color: transparent;
+    }
+  }
+
+  @media (width < 768px) {
+    .header_title {
+      text-shadow: var(--color-title-shadow-light);
+    }
+    .footer_text {
+      text-shadow: var(--color-title-shadow-light);
+    }
   }
 }
 
@@ -31,7 +48,7 @@
     --color-tittle-dark: #FFC2E6; /*цвет заголовка темной темы*/
     --color-title-shadow-dark: 4px 4px 0 #ff0070; /*тень заголовка темной темы*/
     --color-text-desc-header: #353430; /*цвет текста для header после заголовка*/
-    --color-bg-text-desc-header: #FFEEF6; /*цвет фона текста в header после заголовка*/
+    --color-bg-text-desc-header: #FF8DCB; /*цвет фона текста в header после заголовка*/
     --color-main-title: #353430; /*цвет текста заголовка в теге main*/
     --color-main-subtitle: #353430; /*цвет текста sub заголовка в теге main*/
     --color-bg-main: #FF8DCB; /*цвет фона текста sub заголовка в теге main*/
@@ -42,8 +59,24 @@
     --background-image: url(/images/cover-image-light.png); /*фон сайта*/
     --rec-visible: hidden; /*для rec видимый*/
   }
+
   .header_rec {
     visibility: var(--rec-visible);
+  }
+
+  @media (width > 768px) {
+    .text_description {
+      background-color: transparent;
+    }
+  }
+
+  @media (width < 768px) {
+    .header_title {
+      text-shadow: var(--color-title-shadow-light);
+    }
+    .footer_text {
+      text-shadow: var(--color-title-shadow-light);
+    }
   }
 
 }
