@@ -5,7 +5,6 @@
 */
 
 
-
   .page.theme_dark {
     --accent-color-header: #FF0070; /* основной цвет темной темы в header */
     --color-tittle-dark: #db00ff; /*цвет заголовка темной темы*/
@@ -19,42 +18,11 @@
     --accent-color-bg: #000028; /*цвет фона бакграунд для всего сайта*/
     --color-footer-title: #db00ff; /*цвет заголовка футера*/
     --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
+    .header {
+      background:url(/images/cover-image-dark.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
   }
 
-
-.page.theme_dark {
-  .header {
-    background-image: url(/images/cover-image-dark.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .header_title {
-    color: var(--color-tittle-dark);
-  }
-
-  .header_rec {
-    display: none;
-  }
-
-  .header__theme-menu-button_type_auto {
-    border: 1px solid #353430;
-  }
-
-  .header__theme-menu-button_type_light {
-    border: none;
-  }
-
-  .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.4);
-  }
-
-  .header__theme-menu-button:focus {
-    border-bottom: 1px solid #353430;
-  }
-
-  .main_text_link {
-    text-decoration: none;
-    text-shadow: 2px 2px 0 #FF8DCB;
-  }
-}
