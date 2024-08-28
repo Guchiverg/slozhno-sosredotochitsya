@@ -17,12 +17,11 @@ body {
 }
 
 .header {
-  background-image: url(/images/cover-image-dark.png);
+  background-image: var(--background-image);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100dvh;
-
 }
 
 .header_container {

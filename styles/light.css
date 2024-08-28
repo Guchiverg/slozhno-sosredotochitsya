@@ -18,6 +18,7 @@
   --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
   --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
   --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
+  --background-image: url(/images/cover-image-light.png); /*фон сайта*/
 }
 
 

@@ -18,6 +18,7 @@
     --accent-color-bg: #000028; /*цвет фона бакграунд для всего сайта*/
     --color-footer-title: #db00ff; /*цвет заголовка футера*/
     --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
+    --background-image: url(/images/cover-image-dark.png); /*фон сайта*/
   }
   
 
@@ -37,12 +38,7 @@
     --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
     --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
     --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
-  }
-  .header {
-    background:url(/images/cover-image-light.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    --background-image: url(/images/cover-image-light.png); /*фон сайта*/
   }
 
   .header_rec {
