@@ -345,6 +345,13 @@ color: var(--color-main-title);
   transform: rotate(180deg);
 }
 
+.main_text_link:focus-visible {
+  outline: 1px solid #F1B2CE;
+}
+
+.header__theme-menu-button_active {
+  outline: 1px solid var(--accent-color-header);  
+}
 
 
 
