@@ -20,6 +20,15 @@
   --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
   --background-image: url(/images/cover-image-dark.png); /*фон сайта*/
   --rec-visible: visible; /*для rec видимый*/
+
+  @media (width < 1024px) {
+    .header_title {
+      text-shadow: var(--color-title-shadow-dark);
+    }
+    .footer_text {
+      text-shadow: var(--text-shadow-footer);
+    }
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,7 +49,14 @@
     --rec-visible: visible; /*для rec видимый*/
   }
 
-
+  @media (width < 1024px) {
+    .header_title {
+      text-shadow: var(--color-title-shadow-dark);
+    }
+    .footer_text {
+      text-shadow: var(--text-shadow-footer);
+    }
+  }
 }
 
 
