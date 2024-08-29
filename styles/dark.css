@@ -22,24 +22,6 @@
   --rec-visible: visible; /*для rec видимый*/
   --color-text-shadow-main_text_link: #FF0070;/*цвет тени ссылок внутри текста*/
 
-  /* @media (width < 1024px) {
-    .header_title {
-      text-shadow: var(--color-title-shadow-dark);
-    }
-    .footer_text {
-      text-shadow: var(--text-shadow-footer);
-    }
-  }
-  .main_text_link {
-    text-decoration: none;
-    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
-  }
-
-  .main_text_link:hover {
-    border-bottom: 1px solid var(--color-main-text);
-    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
-  } */
-
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,22 +43,7 @@
     --color-text-shadow-main_text_link: #FF0070;/*цвет тени ссылок внутри текста*/
   }
 
-  /* @media (width < 1024px) {
-    .header_title {
-      text-shadow: var(--color-title-shadow-dark);
-    }
-    .footer_text {
-      text-shadow: var(--text-shadow-footer);
-    }
-  }
-  .main_text_link {
-    text-decoration: none;
-    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
-  }
-  .main_text_link:hover {
-    border-bottom: 1px solid var(---color-main-text);
-    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
-  } */
+ 
 
 
 
