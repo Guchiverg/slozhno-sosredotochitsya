@@ -22,7 +22,7 @@
   --rec-visible: visible; /*для rec видимый*/
   --color-text-shadow-main_text_link: #FF0070;/*цвет тени ссылок внутри текста*/
 
-  @media (width < 1024px) {
+  /* @media (width < 1024px) {
     .header_title {
       text-shadow: var(--color-title-shadow-dark);
     }
@@ -38,7 +38,7 @@
   .main_text_link:hover {
     border-bottom: 1px solid var(--color-main-text);
     text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
-  }
+  } */
 
 }
 
@@ -61,7 +61,7 @@
     --color-text-shadow-main_text_link: #FF0070;/*цвет тени ссылок внутри текста*/
   }
 
-  @media (width < 1024px) {
+  /* @media (width < 1024px) {
     .header_title {
       text-shadow: var(--color-title-shadow-dark);
     }
@@ -76,7 +76,7 @@
   .main_text_link:hover {
     border-bottom: 1px solid var(---color-main-text);
     text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
-  }
+  } */
 
 
 

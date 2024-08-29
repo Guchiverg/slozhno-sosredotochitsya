@@ -24,7 +24,7 @@
   --rec-visible: hidden; /*для rec видимый*/
   --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
  
-  .header_rec {
+  /* .header_rec {
     visibility: var(--rec-visible);
   }
 
@@ -47,7 +47,7 @@
   }
   .main_text_link:focus-visible {
     outline: 1px solid #353430;
-  }
+  } */
 }
 
 @media (prefers-color-scheme: light) {
@@ -71,7 +71,7 @@
     --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
   }
 
-  .main_text_link {
+  /* .main_text_link {
     text-decoration: none;
     text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
   }
@@ -96,7 +96,7 @@
   }
   .main_text_link:focus-visible {
     outline: 1px solid #353430;
-  }
+  } */
 }
 
 
