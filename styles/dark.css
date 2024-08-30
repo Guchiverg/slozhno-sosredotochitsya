@@ -14,15 +14,15 @@
   --color-bg-text-desc-header: var(--color-default, #FF0070);
   --color-main-title: var(--color-default, #FF0070);
   --color-main-subtitle: var(--color-black, #000028);
-  --color-bg-main: var(--color-default, #FF0070); 
+  --color-bg-main: var(--color-default, #FF0070);
   --color-main-text: var(--color-pink-d, #F1B2CE);
   --accent-color-bg: var(--color-black, #000028);
   --color-footer-title: var(--color-pink, #db00ff);
   --text-shadow-footer: 2px 2px 0 var(--color-default, #FF0070);
   --text-shadow-footer-light: 2px 2px 0 var(--color-default, #FF0070);
-  --background-image: var(--bg-dark); 
+  --background-image: var(--bg-dark);
   --color-text-shadow-main_text_link: var(--color-default, #FF0070);
-  --color-hover-border-dark: 1px solid rgba(255, 0, 112, 0.4); 
+  --color-hover-border-dark: 1px solid rgba(255, 0, 112, 0.4);
   --rec-visibility: visible;
 }
 
@@ -36,15 +36,15 @@
     --color-bg-text-desc-header: var(--color-default, #FF0070);
     --color-main-title: var(--color-default, #FF0070);
     --color-main-subtitle: var(--color-black, #000028);
-    --color-bg-main: var(--color-default, #FF0070); 
+    --color-bg-main: var(--color-default, #FF0070);
     --color-main-text: var(--color-pink-d, #F1B2CE);
     --accent-color-bg: var(--color-black, #000028);
     --color-footer-title: var(--color-pink, #db00ff);
     --text-shadow-footer: 2px 2px 0 var(--color-default, #FF0070);
     --text-shadow-footer-light: 2px 2px 0 var(--color-default, #FF0070);
-    --background-image: var(--bg-dark); 
+    --background-image: var(--bg-dark);
     --color-text-shadow-main_text_link: var(--color-default, #FF0070);
-    --color-hover-border-dark: 1px solid rgba(255, 0, 112, 0.4); 
+    --color-hover-border-dark: 1px solid rgba(255, 0, 112, 0.4);
     --rec-visibility: visible;
   }
 }
