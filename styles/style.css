@@ -352,8 +352,26 @@ color: var(--color-main-title);
   height: 22px;
 }
 
+.header__theme-menu-button:hover {
+  border: var(--color-hover-border);
+}
 
+.header__theme-menu-button:focus {
+  border-bottom: 1px solid var(--accent-color-header);
+}
 
+.main_text_link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
+}
+
+.main_text_link:focus {
+  outline: 1px solid var(--color-main-text);
+}
+
+.main_text_link:hover {
+  border-bottom: 1px solid var(--color-main-text);
+}
 
 
 
