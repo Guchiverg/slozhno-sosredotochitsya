@@ -351,6 +351,8 @@ color: var(--color-main-title);
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--accent-color-header);  
+  width: 67px;
+  height: 22px;
 }
 
 
