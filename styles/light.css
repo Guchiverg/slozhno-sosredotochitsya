@@ -8,7 +8,6 @@
 .page.theme_light {
   --accent-color-header: #353430; /* основной цвет темной темы в header */
   --color-tittle-dark: #FFC2E6; /*цвет заголовка темной темы*/
-  --color-title-shadow-dark: 4px 4px 0 #ff0070; /*тень заголовка темной темы*/
   --color-title-shadow-light: 4px 4px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
   --color-text-desc-header: #353430; /*цвет текста для header после заголовка*/
   --color-bg-text-desc-header: #FF8DCB; /*цвет фона текста в header после заголовка*/
@@ -18,20 +17,17 @@
   --color-main-text: #353430; /*цвет текста в теге p в классе main_text*/
   --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
   --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
-  --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
   --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
   --background-image: url(/images/cover-image-light.png); /*фон сайта*/
   --rec-visible: hidden; /*для rec видимый*/
   --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
   --color-hover-border: 1px solid rgba(50, 49, 45, 0.4);; /*бордер для навигации при hover*/
-
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color-header: #353430; /* основной цвет темной темы в header */
     --color-tittle-dark: #FFC2E6; /*цвет заголовка темной темы*/
-    --color-title-shadow-dark: 4px 4px 0 #ff0070; /*тень заголовка темной темы*/
     --color-title-shadow-light: 4px 4px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
     --color-text-desc-header: #353430; /*цвет текста для header после заголовка*/
     --color-bg-text-desc-header: #FF8DCB; /*цвет фона текста в header после заголовка*/
@@ -41,7 +37,6 @@
     --color-main-text: #353430; /*цвет текста в теге p в классе main_text*/
     --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
     --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
-    --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
     --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
     --background-image: url(/images/cover-image-light.png); /*фон сайта*/
     --rec-visible: hidden; /*для rec видимый*/
