@@ -6,42 +6,46 @@
 
 
 .page.theme_light {
-  --accent-color-header: #353430; /* основной цвет темной темы в header */
-  --color-tittle-dark: #FFC2E6; /*цвет заголовка темной темы*/
-  --color-title-shadow-light: 4px 4px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
-  --color-text-desc-header: #353430; /*цвет текста для header после заголовка*/
-  --color-bg-text-desc-header: #FF8DCB; /*цвет фона текста в header после заголовка*/
-  --color-main-title: #353430; /*цвет текста заголовка в теге main*/
-  --color-main-subtitle: #353430; /*цвет текста sub заголовка в теге main*/
-  --color-bg-main: #FF8DCB; /*цвет фона текста sub заголовка в теге main*/
-  --color-main-text: #353430; /*цвет текста в теге p в классе main_text*/
-  --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
-  --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
-  --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
-  --background-image: url(/images/cover-image-light.png); /*фон сайта*/
-  --rec-visible: hidden; /*для rec видимый*/
-  --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
-  --color-hover-border: 1px solid rgba(50, 49, 45, 0.4);; /*бордер для навигации при hover*/
+  --accent-color-header: var(--accent-default-two, #353430);
+  --color-tittle-dark: var(--color-pink-l, #FFC2E6);
+  --color-title-shadow-light: 4px 4px 0 var(--color-header-pink, #ff8dcb);
+  --color-text-desc-header: var(--accent-default-two, #353430);
+  --color-bg-text-desc-header: var(--color-header-pink, #ff8dcb);
+  --color-main-title: var(--accent-default-two, #353430);
+  --color-main-subtitle: var(--accent-default-two, #353430);
+  --color-bg-main: var(--color-header-pink, #ff8dcb);
+  --color-main-text: var(--accent-default-two, #353430);
+  --accent-color-bg:  var(--color-bg-d);
+  --color-footer-title: var(--color-pink-l, #FFC2E6);
+  --text-shadow-footer-light: 2px 2px 0 var(--color-header-pink, #ff8dcb);
+  --background-image: var(--bg-light);
+  --color-text-shadow-main_text_link: var(--color-header-pink, #ff8dcb);
+  --border-hover-light: 1px solid rgba(50, 49, 45, 0.4);
+  --color-title-shadow-dark: 4px 4px 0 var(--color-default, #FF0070);
+  --text-shadow-footer: 2px 2px 0 var(--color-default, #FF0070);
+  --rec-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color-header: #353430; /* основной цвет темной темы в header */
-    --color-tittle-dark: #FFC2E6; /*цвет заголовка темной темы*/
-    --color-title-shadow-light: 4px 4px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
-    --color-text-desc-header: #353430; /*цвет текста для header после заголовка*/
-    --color-bg-text-desc-header: #FF8DCB; /*цвет фона текста в header после заголовка*/
-    --color-main-title: #353430; /*цвет текста заголовка в теге main*/
-    --color-main-subtitle: #353430; /*цвет текста sub заголовка в теге main*/
-    --color-bg-main: #FF8DCB; /*цвет фона текста sub заголовка в теге main*/
-    --color-main-text: #353430; /*цвет текста в теге p в классе main_text*/
-    --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
-    --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
-    --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
-    --background-image: url(/images/cover-image-light.png); /*фон сайта*/
-    --rec-visible: hidden; /*для rec видимый*/
-    --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
-    --color-hover-border: 1px solid rgba(50, 49, 45, 0.4);; /*бордер для навигации при hover*/
+    --accent-color-header: var(--accent-default-two, #353430);
+    --color-tittle-dark: var(--color-pink-l, #FFC2E6);
+    --color-title-shadow-light: 4px 4px 0 var(--color-header-pink, #ff8dcb);
+    --color-text-desc-header: var(--accent-default-two, #353430);
+    --color-bg-text-desc-header: var(--color-header-pink, #ff8dcb);
+    --color-main-title: var(--accent-default-two, #353430);
+    --color-main-subtitle: var(--accent-default-two, #353430);
+    --color-bg-main: var(--color-header-pink, #ff8dcb);
+    --color-main-text: var(--accent-default-two, #353430);
+    --accent-color-bg:  var(--color-bg-d);
+    --color-footer-title: var(--color-pink-l, #FFC2E6);
+    --text-shadow-footer-light: 2px 2px 0 var(--color-header-pink, #ff8dcb);
+    --background-image: var(--bg-light);
+    --color-text-shadow-main_text_link: var(--color-header-pink, #ff8dcb);
+    --border-hover-light: 1px solid rgba(50, 49, 45, 0.4);
+    --color-title-shadow-dark: 4px 4px 0 var(--color-default, #FF0070);
+    --text-shadow-footer: 2px 2px 0 var(--color-default, #FF0070);
+    --rec-visibility: hidden;
   }
 }
 
