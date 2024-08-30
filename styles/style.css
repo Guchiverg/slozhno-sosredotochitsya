@@ -44,11 +44,9 @@ body {
   width: 79px;
 }
 
-.header__theme-menu-button {
-  text-transform: lowercase;
-}
 
 .header__theme-menu-button {
+  text-transform: lowercase;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -58,7 +56,6 @@ body {
 .header_rec {
   text-transform: uppercase;
   color: var(--accent-color-header);
-  position: relative;
   font-weight: 400;
   font-size: 18px;
   line-height: 139%;
@@ -350,7 +347,7 @@ color: var(--color-main-title);
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--accent-color-header);  
+  outline: 1px solid var(--accent-color-header);
   width: 67px;
   height: 22px;
 }
@@ -373,13 +370,12 @@ color: var(--color-main-title);
     align-items: end;
     justify-content: end;
     width: 100%;
-  } 
-
-  .header__theme-menu {
     margin-block-start: 171px;
     margin-inline-end: 15px;
   
-  }
+  } 
+
+
 
   .header_title {
     margin-block-start: 178px;
@@ -399,10 +395,6 @@ color: var(--color-main-title);
     height: 117px;
     width: 100%;
     margin: 0;
-  }
-
-  .main_title {
-    width: 100%;
   }
 
   .main_wrapper {
@@ -563,9 +555,6 @@ color: var(--color-main-title);
   width: 95%;
 }
 
-.main_two_title {
-  max-width: 70%;
-}
 
 .main_two {
   margin-block-start: 30px;
@@ -573,6 +562,7 @@ color: var(--color-main-title);
 
 .main_two_title {
   margin-inline-start: 10px;
+  max-width: 70%;
 }
 
 .main_two_wrapper {
