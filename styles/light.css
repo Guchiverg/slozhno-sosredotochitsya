@@ -23,7 +23,31 @@
   --background-image: url(/images/cover-image-light.png); /*фон сайта*/
   --rec-visible: hidden; /*для rec видимый*/
   --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
+ 
+  /* .header_rec {
+    visibility: var(--rec-visible);
+  }
 
+  .main_text_link {
+    text-decoration: none;
+    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
+  }
+  .main_text_link:hover {
+    border-bottom: 1px solid var(--color-main-title);
+    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
+  }
+
+  @media (width < 1024px) {
+    .header_title {
+      text-shadow: var(--color-title-shadow-light);
+    }
+    .footer_text {
+      text-shadow: var(--text-shadow-footer-light);
+    }
+  }
+  .main_text_link:focus-visible {
+    outline: 1px solid #353430;
+  } */
 }
 
 @media (prefers-color-scheme: light) {
@@ -47,9 +71,32 @@
     --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
   }
 
+  /* .main_text_link {
+    text-decoration: none;
+    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
+  }
+
+  .main_text_link:hover {
+    border-bottom: 1px solid var(--color-main-title);
+    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
+  }
 
 
- 
+  .header_rec {
+    visibility: var(--rec-visible);
+  }
+
+  @media (width < 1024px) {
+    .header_title {
+      text-shadow: var(--color-title-shadow-light);
+    }
+    .footer_text {
+      text-shadow: var(--text-shadow-footer-light);
+    }
+  }
+  .main_text_link:focus-visible {
+    outline: 1px solid #353430;
+  } */
 }
 
 

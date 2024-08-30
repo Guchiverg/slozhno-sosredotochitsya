@@ -689,7 +689,16 @@ color: var(--color-main-title);
 }
 
 
+@media (width < 1024px) {
+  .header_title {
+    color: var(--color-tittle-dark);
+    text-shadow: var(--color-title-shadow-light);
+  }
+  .footer_text {
+    text-shadow: var(--text-shadow-footer-light);
+  }
 
+}
 
 
 

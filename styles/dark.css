@@ -9,6 +9,7 @@
   --accent-color-header: #FF0070; /* основной цвет темной темы в header */
   --color-tittle-dark: #db00ff; /*цвет заголовка темной темы*/
   --color-title-shadow-dark: 4px 4px 0 #ff0070; /*тень заголовка темной темы*/
+  --color-title-shadow-light: 4px 4px 0 #ff0070; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
   --color-text-desc-header: #000028; /*цвет текста для header после заголовка*/
   --color-bg-text-desc-header: #FF0070; /*цвет фона текста в header после заголовка*/
   --color-main-title: #FF0070; /*цвет текста заголовка в теге main*/
@@ -18,9 +19,28 @@
   --accent-color-bg: #000028; /*цвет фона бакграунд для всего сайта*/
   --color-footer-title: #db00ff; /*цвет заголовка футера*/
   --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
+  --text-shadow-footer-light: 2px 2px 0 #ff0070; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
   --background-image: url(/images/cover-image-dark.png); /*фон сайта*/
   --rec-visible: visible; /*для rec видимый*/
   --color-text-shadow-main_text_link: #FF0070;/*цвет тени ссылок внутри текста*/
+
+  /* @media (width < 1024px) {
+    .header_title {
+      text-shadow: var(--color-title-shadow-dark);
+    }
+    .footer_text {
+      text-shadow: var(--text-shadow-footer);
+    }
+  }
+  .main_text_link {
+    text-decoration: none;
+    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
+  }
+
+  .main_text_link:hover {
+    border-bottom: 1px solid var(--color-main-text);
+    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
+  } */
 
 }
 
@@ -29,6 +49,7 @@
     --accent-color-header: #FF0070; /* основной цвет темной темы в header */
     --color-tittle-dark: #db00ff; /*цвет заголовка темной темы*/
     --color-title-shadow-dark: 4px 4px 0 #ff0070; /*тень заголовка темной темы*/
+    --color-title-shadow-light: 4px 4px 0 #ff0070; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
     --color-text-desc-header: #000028; /*цвет текста для header после заголовка*/
     --color-bg-text-desc-header: #FF0070; /*цвет фона текста в header после заголовка*/
     --color-main-title: #FF0070; /*цвет текста заголовка в теге main*/
@@ -38,12 +59,28 @@
     --accent-color-bg: #000028; /*цвет фона бакграунд для всего сайта*/
     --color-footer-title: #db00ff; /*цвет заголовка футера*/
     --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
+    --text-shadow-footer-light: 2px 2px 0 #ff0070; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
     --background-image: url(/images/cover-image-dark.png); /*фон сайта*/
     --rec-visible: visible; /*для rec видимый*/
     --color-text-shadow-main_text_link: #FF0070;/*цвет тени ссылок внутри текста*/
   }
 
- 
+  /* @media (width < 1024px) {
+    .header_title {
+      text-shadow: var(--color-title-shadow-dark);
+    }
+    .footer_text {
+      text-shadow: var(--text-shadow-footer);
+    }
+  }
+  .main_text_link {
+    text-decoration: none;
+    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
+  }
+  .main_text_link:hover {
+    border-bottom: 1px solid var(---color-main-text);
+    text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
+  } */
 
 
 
