@@ -25,7 +25,7 @@
   --color-text-shadow-main_text_link: #FF0070;/*цвет тени ссылок внутри текста*/
   --color-hover-border: 1px solid rgba(255, 0, 112, 0.4); /*бордер для навигации при hover*/
 }
-/**/
+/**/ /**/
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color-header: #FF0070; /* основной цвет темной темы в header */
