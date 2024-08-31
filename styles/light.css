@@ -4,122 +4,47 @@
   переключая тему
 */
 
-@media (prefers-color-scheme: light) {
-
-
-:root {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-  --accent-color-header: #353430; /* основной цвет темной темы в header */
-  --color-tittle-dark: #FFC2E6; /*цвет заголовка темной темы*/
-  --color-title-shadow-dark: 4px 4px 0 #ff0070; /*тень заголовка темной темы*/
-  --color-text-desc-header: #353430; /*цвет текста для header после заголовка*/
-  --color-bg-text-desc-header: #FFEEF6; /*цвет фона текста в header после заголовка*/
-  --color-main-title: #353430; /*цвет текста заголовка в теге main*/
-  --color-main-subtitle: #353430; /*цвет текста sub заголовка в теге main*/
-  --color-bg-main: #FF8DCB; /*цвет фона текста sub заголовка в теге main*/
-  --color-main-text: #353430; /*цвет текста в теге p в классе main_text*/
-  --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
-  --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
-  --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
-
-  .header {
-    background-image: url(/images/cover-image-light.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .header_rec {
-    display: none;
-  }
-
-  .header__theme-menu-button_type_auto {
-    border: 1px solid #353430;
-  }
-
-  .header__theme-menu-button_type_light {
-    border: none;
-  }
-
-  .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.4);
-  }
-
-  .header__theme-menu-button:focus {
-    border-bottom: 1px solid #353430;
-  }
-
-  .main_text_link {
-    text-decoration: none;
-    text-shadow: 2px 2px 0 #FF8DCB;
-  }
-}
-
-@media (max-width: 768px) {
-  .page.theme_light {
-    --color-title-shadow-dark: 4px 4px 0 #ff8dcb;
-    --text-shadow-footer: 2px 2px 0 #ff8dcb;
-  }
-}
-
-}
-
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
   --accent-color-header: #353430; /* основной цвет темной темы в header */
   --color-tittle-dark: #FFC2E6; /*цвет заголовка темной темы*/
-  --color-title-shadow-dark: 4px 4px 0 #ff0070; /*тень заголовка темной темы*/
+  --color-title-shadow-light: 4px 4px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
   --color-text-desc-header: #353430; /*цвет текста для header после заголовка*/
-  --color-bg-text-desc-header: #FFEEF6; /*цвет фона текста в header после заголовка*/
+  --color-bg-text-desc-header: #FF8DCB; /*цвет фона текста в header после заголовка*/
   --color-main-title: #353430; /*цвет текста заголовка в теге main*/
   --color-main-subtitle: #353430; /*цвет текста sub заголовка в теге main*/
   --color-bg-main: #FF8DCB; /*цвет фона текста sub заголовка в теге main*/
   --color-main-text: #353430; /*цвет текста в теге p в классе main_text*/
   --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
   --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
-  --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
+  --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
+  --background-image: url(/images/cover-image-light.png); /*фон сайта*/
+  --rec-visible: hidden; /*для rec видимый*/
+  --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
+  --color-hover-border: 1px solid rgba(50, 49, 45, 0.4);; /*бордер для навигации при hover*/
+}
 
-  .header {
-    background-image: url(/images/cover-image-light.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .header__theme-menu-button_type_auto {
-    border: none;
-  }
-  
-  .header_rec {
-    display: none;
-  }
-
-  .header__theme-menu-button_type_light {
-    border: 1px solid #353430;
-  }
-
-  .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.4);
-  }
-
-  .header__theme-menu-button:focus {
-    border-bottom: 1px solid #353430;
-  }
-
-  .main_text_link {
-    text-decoration: none;
-    text-shadow: 2px 2px 0 #FF8DCB;
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color-header: #353430; /* основной цвет темной темы в header */
+    --color-tittle-dark: #FFC2E6; /*цвет заголовка темной темы*/
+    --color-title-shadow-light: 4px 4px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
+    --color-text-desc-header: #353430; /*цвет текста для header после заголовка*/
+    --color-bg-text-desc-header: #FF8DCB; /*цвет фона текста в header после заголовка*/
+    --color-main-title: #353430; /*цвет текста заголовка в теге main*/
+    --color-main-subtitle: #353430; /*цвет текста sub заголовка в теге main*/
+    --color-bg-main: #FF8DCB; /*цвет фона текста sub заголовка в теге main*/
+    --color-main-text: #353430; /*цвет текста в теге p в классе main_text*/
+    --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
+    --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
+    --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
+    --background-image: url(/images/cover-image-light.png); /*фон сайта*/
+    --rec-visible: hidden; /*для rec видимый*/
+    --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
+    --color-hover-border: 1px solid rgba(50, 49, 45, 0.4);; /*бордер для навигации при hover*/
   }
 }
 
-@media (max-width: 768px) {
-  .page.theme_light {
-    --color-title-shadow-dark: 4px 4px 0 #ff8dcb;
-    --text-shadow-footer: 2px 2px 0 #ff8dcb;
-  }
-}
+
+
+
