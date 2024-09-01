@@ -22,8 +22,7 @@ body {
 }
 
 .header {
-  margin-block-end: 192px;
-  max-height: 100vh;
+  min-height: 100dvh;
 }
 
 .header_container {
@@ -129,7 +128,7 @@ margin-block-start: 276px;
 
 .main {
   display: flex;
-  margin-block-start: 81px;
+  margin-block-start: 60px;
   margin-inline-start: 19px;
 }
 
@@ -165,6 +164,7 @@ margin-block-start: 276px;
 
 .main_concentration {
   margin-block-start: 60px;
+  margin-block-end: 80px;
 }
 
 .main_concentration_title {
@@ -347,7 +347,7 @@ margin-block-start: 276px;
   }
 
   .header {
-    margin-block-end: 242px;
+    /* margin-block-end: 242px; */
   }
 
   .main_golden_fish_subtitle_bold {
