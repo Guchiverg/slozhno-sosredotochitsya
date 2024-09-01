@@ -15,8 +15,8 @@
   --color-main-subtitle: #353430; /*цвет текста sub заголовка в теге main*/
   --color-bg-main: #FF8DCB; /*цвет фона текста sub заголовка в теге main*/
   --color-main-text: #353430; /*цвет текста в теге p в классе main_text*/
-  --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
-  --color-footer-title: #FFF1F7; /*цвет заголовка футера*/
+  --accent-color-bg: #FFF1F7; /*цвет фона бакграунд для всего сайта*/
+  --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
   --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
   --background-image: url(../images/cover-image-light.png); /*фон сайта*/
   --rec-visible: hidden; /*для rec видимый*/
