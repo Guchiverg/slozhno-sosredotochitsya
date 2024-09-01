@@ -17,9 +17,9 @@
   --color-footer-title: #db00ff; /*цвет заголовка футера*/
   --text-shadow-footer: 2px 2px 0 #ff0070; /*тень заголовка футера*/
   --text-shadow-footer-light: 2px 2px 0 #ff0070; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
-  --background-image: url(/images/cover-image-dark.png); /*фон сайта*/
+  --background-image: url(../images/cover-image-dark.png); /*фон сайта*/
   --rec-visible: visible; /*для rec видимый*/
-  --color-text-shadow-main_text_link: #FF0070;/*цвет тени ссылок внутри текста*/
+  --color-text-shadow-main-text-link: #FF0070;/*цвет тени ссылок внутри текста*/
   --color-hover-border: 1px solid rgba(255, 0, 112, 0.4); /*бордер для навигации при hover*/
 }
 

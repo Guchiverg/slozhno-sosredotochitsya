@@ -18,7 +18,7 @@
   --accent-color-bg: #FFEEF6; /*цвет фона бакграунд для всего сайта*/
   --color-footer-title: #FFF1F7; /*цвет заголовка футера*/
   --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
-  --background-image: url(/images/cover-image-light.png); /*фон сайта*/
+  --background-image: url(../images/cover-image-light.png); /*фон сайта*/
   --rec-visible: hidden; /*для rec видимый*/
   --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
   --color-hover-border: 1px solid rgba(50, 49, 45, 0.4);; /*бордер для навигации при hover*/
@@ -38,7 +38,7 @@
     --accent-color-bg: #FFF1F7; /*цвет фона бакграунд для всего сайта*/
     --color-footer-title: #FFC2E6; /*цвет заголовка футера*/
     --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
-    --background-image: url(/images/cover-image-light.png); /*фон сайта*/
+    --background-image: url(../images/cover-image-light.png); /*фон сайта*/
     --rec-visible: hidden; /*для rec видимый*/
     --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
     --color-hover-border: 1px solid rgba(50, 49, 45, 0.4);; /*бордер для навигации при hover*/
