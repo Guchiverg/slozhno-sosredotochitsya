@@ -23,6 +23,7 @@ body {
 
 .header {
   margin-block-end: 192px;
+  max-height: 100vh;
 }
 
 .header_container {
@@ -313,10 +314,6 @@ margin-block-start: 276px;
   text-shadow: 2px 2px 0 var(--color-text-shadow-main_text_link) ;
 }
 
-.main_text_link:focus-visible {
-  outline: 1px solid var(--color-main-text);
-}
-
 .main_text_link:hover {
   border-bottom: 1px solid var(--color-main-text);
 }
@@ -377,7 +374,7 @@ margin-block-start: 276px;
     margin: 0;
   }
 
-  .article_item{
+  .article_item {
     width: 90%;
     margin-inline-start: 31px;
   }
