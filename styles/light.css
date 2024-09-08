@@ -20,8 +20,8 @@
   --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
   --background-image: url(../images/cover-image-light.png); /*фон сайта*/
   --rec-visible: hidden; /*для rec видимый*/
-  --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
-  --color-hover-border: 1px solid rgba(50, 49, 45, 0.4);; /*бордер для навигации при hover*/
+  --color-text-shadow-main-text-link: #FF8DCB; /*цвет тени ссылок внутри текста*/
+  --color-hover-border: 1px solid #FF0070; /*бордер для навигации при hover*/
 }
 
 @media (prefers-color-scheme: light) {
@@ -40,8 +40,8 @@
     --text-shadow-footer-light: 2px 2px 0 #ff8dcb; /*дополнительная тень для размеров 768px и 375 px для светлой темы*/
     --background-image: url(../images/cover-image-light.png); /*фон сайта*/
     --rec-visible: hidden; /*для rec видимый*/
-    --color-text-shadow-main_text_link: #FF8DCB; /*цвет тени ссылок внутри текста*/
-    --color-hover-border: 1px solid rgba(50, 49, 45, 0.4);; /*бордер для навигации при hover*/
+    --color-text-shadow-main-text-link: #FF8DCB; /*цвет тени ссылок внутри текста*/
+    --color-hover-border: 1px solid #FF0070; /*бордер для навигации при hover*/
   }
 }
 
