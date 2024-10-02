@@ -21,7 +21,7 @@
   --background-image: url(../images/cover-image-light.png); /*фон сайта*/
   --rec-visible: hidden; /*для rec видимый*/
   --color-text-shadow-main-text-link: #FF8DCB; /*цвет тени ссылок внутри текста*/
-  --color-hover-border:#FF0070; /*бордер для навигации при hover*/
+  --color-hover-border:1px solid rgba(50, 49, 45, 0.4); /*бордер для навигации при hover*/
 }
 
 @media (prefers-color-scheme: light) {
@@ -41,7 +41,7 @@
     --background-image: url(../images/cover-image-light.png); /*фон сайта*/
     --rec-visible: hidden; /*для rec видимый*/
     --color-text-shadow-main-text-link: #FF8DCB; /*цвет тени ссылок внутри текста*/
-    --color-hover-border:#FF0070; /*бордер для навигации при hover*/
+    --color-hover-border:1px solid rgba(50, 49, 45, 0.4); /*бордер для навигации при hover*/
   }
 }
 
