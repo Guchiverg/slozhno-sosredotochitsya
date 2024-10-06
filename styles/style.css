@@ -9,7 +9,7 @@
   background-size: cover;
   background-position: center;
 }
-
+/**/
 * {
  margin: 0 auto;
 }
@@ -132,7 +132,7 @@ margin-inline-start: -20px;
   line-height: 130%;
   color: var(--color-text-desc-header);
   background-color: var(--color-bg-text-desc-header);
-  max-width: 491px;
+  width: 50%;
   height: auto;
 }
 
@@ -335,10 +335,6 @@ margin-inline-start: -20px;
     height: 20px;
   }
 
-  /* .decorated-zone::after {
-    top: 980px;
-  } */
-
   .header {
   height: 100dvh;
   }
@@ -358,8 +354,6 @@ margin-inline-start: -20px;
     align-items: center;
     width: 95%;
   }
-
-
 
   .concentration {
     width: 99%;
@@ -422,7 +416,7 @@ margin-inline-start: -20px;
     line-height: 83%;
     color: var(--color-footer-title);
     text-shadow: var(--text-shadow-footer);
-    margin-block-start: 45px;
+
   }
 
 }
@@ -430,23 +424,6 @@ margin-inline-start: -20px;
 @media (max-width: 769px) {
   .decorated-zone::after {
     bottom: 20px;
-}
-}
-
-
-/* @media (max-width: 750px) {
-  .header_description {
-    margin: 0;
-  }
-  .text_description {
-    margin: 0;
-  }
-} */
-
-
-@media (max-width: 575px) {
-  .header_title {
-    /* margin-block-start: 42px; */
 }
 }
 
@@ -476,6 +453,10 @@ margin-inline-start: -20px;
     right: 39px;
 }
 
+.text_description {
+  width: 100%;
+}
+
 .main_golden_fish_subtitle_bold {
   width: 100%;
   margin-inline-start: 0px;
@@ -494,7 +475,6 @@ margin-inline-start: -20px;
 
 
 .header_title {
-  /* margin-block-start: 69px; */
   margin: 0;
 }
 
@@ -603,7 +583,6 @@ margin-inline-start: -20px;
 }
 
 .footer_text {
-  margin-block-start: 5px;
   font-size: 116px;
   padding: 0;
 }
@@ -648,9 +627,9 @@ margin-inline-start: -20px;
   }
 } */
 
-@media (max-width: 767px) and (min-width: 376px) {
+@media (max-width: 767px) and (min-width: 375px) {
   .text_description {
-    width: 82%;
+    width: 100%;
 
 }
 }
