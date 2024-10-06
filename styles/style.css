@@ -606,7 +606,7 @@ margin-inline-start: -20px;
 }
 
 @media (max-width: 768px) and (min-width: 376px) {
-  .text_description { 
+  .text_description {
     width: 50%;
     max-width: 491px;
     height: auto;
