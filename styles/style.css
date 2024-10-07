@@ -9,7 +9,7 @@
   background-size: cover;
   background-position: center;
 }
-/**/
+/**//**/
 * {
  margin: 0 auto;
 }
@@ -325,10 +325,9 @@ margin-inline-start: -20px;
 
   .header__theme-menu {
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: end;
     width: 100%;
-    margin-block-start: 171px;
   } 
 
   .header__theme-menu-button {
@@ -433,10 +432,6 @@ margin-inline-start: -20px;
     min-height: 668px;
     margin-block-end: 40px;
     padding: 10px;
-  }
-  .header__theme-menu {
-    margin-block-start: 64px;
-
   }
 
       .header__theme-menu-button {
