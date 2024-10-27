@@ -1,1 +1,1 @@
-https://github.com/Guchiverg/slozhno-sosredotochitsya.git
+https://github.com/Guchiverg/zakrivayuschiy-teg-f.git
